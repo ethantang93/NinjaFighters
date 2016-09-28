@@ -1,59 +1,64 @@
 #container {
-  width: 1440px;
-  height: 900px;
-  margin: 0px auto;
-  background-color: lightgrey;
-  /*display: inline-block;*/
-}
-#screen {
-  width: 1340px;
-  height: 700px;
-  margin: 0px auto;
-  background-color: black;
-  padding-top: 200px;
-  background-size: cover;
-  /*display: inline-block;*/
-}
-#selection-area {
-  width: 300px;
-  height: 200px;
-  margin: 0 auto;
-  background-color: grey;
-  border-radius: 20px;
-  border: 10px solid lightgrey;
-  /*display: inline-block;*/
-  text-align: center;
-}
-h2 {
-  color: yellow;
-  /*margin-left: 77px;*/
-}
-button {
-  height: 40px;
-  width: 91px;
-  display: inline-block;
-  vertical-align: top;
-  margin: 6px 3px;
-  border-radius: 9px;
+    width: 1440px;
+    height: 900px;
+    margin: 0px auto;
+    background-color: lightgrey;
+    /*display: inline-block;*/
 }
 
-select{
-  /*margin-left: 40px;*/
+#screen {
+    width: 1340px;
+    height: 700px;
+    margin: 0px auto;
+    background-color: black;
+    padding-top: 200px;
+    background-size: cover;
+    /*display: inline-block;*/
 }
+
+#selection-area {
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: grey;
+    border-radius: 20px;
+    border: 10px solid lightgrey;
+    /*display: inline-block;*/
+    text-align: center;
+}
+
+h2 {
+    color: yellow;
+    /*margin-left: 77px;*/
+}
+
+button {
+    height: 40px;
+    width: 91px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 6px 3px;
+    border-radius: 9px;
+}
+
+select {
+    /*margin-left: 40px;*/
+}
+
 #left-img {
-  height: 300px;
-  width: 250px;
-  /*background-color: blue;*/
-  display: inline-block;
-  vertical-align: top;
-  margin-left: 177px;
+    height: 300px;
+    width: 250px;
+    /*background-color: blue;*/
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 177px;
 }
 
 #right-img {
-  height: 300px;
-  width: 250px;
-  /*background-color: yellow;*/
-  display: inline-block;
-  vertical-align: top;
-  margin-left: 471px;
+    height: 300px;
+    width: 250px;
+    /*background-color: yellow;*/
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 471px;
 }
