@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Street Fight Arena</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var hide=true;
+            $('button').hover(function() {
+                $('#screen').css("background-image", 'url(' + $(this).attr('name') + ')');
+            }, function() {
+              if (hide == true){
+                $('#screen').css("background-image", 'none');
+              }
+            });
+
+
+            $('button').click(function(){
+              hide = false;
+              $('button').hide();
+              $('h2').text('Select Player');
+              $('h2').after("<select>"+
+              "<option value='' disabled selected>SelectPlayer</option>"+
+              "<option>donny</option>"+
+              "<option>leo</option>"+
+              "<option>milkey</option>"+
+              "<option>raphael</option>"+
+              "</select>"+
+              "<select>"+
+              "<option value='' disabled selected>SelectPlayer</option>"+
+              "<option>donny</option>"+
+              "<option>leo</option>"+
+              "<option>milkey</option>"+
+              "<option>raphael</option>"+
+              "</select>")
+            });
+
+        })
+
+    </script>
+
+</head>
+
+<body>
+    <div id="container">
+        <div id="screen">
+            <div id="selection-area">
+                <h2>Select Arena</h2>
+                <button type="button" name="beach.jpg">Beach</button>
+                <button type="button" name="planet.jpg">Planet</button>
+                <button type="button" name="dojo.jpg">Dojo</button>
+                <button type="button" name="forest.jpg">Forest</button>
+                <button type="button" name="matrix.jpg">Matrix</button>
+                <button type="button" name="snow.jpg">Snow</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
