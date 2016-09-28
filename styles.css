@@ -43,7 +43,7 @@ select{
 #left-img {
   height: 300px;
   width: 250px;
-  background-color: blue;
+  /*background-color: blue;*/
   display: inline-block;
   vertical-align: top;
   margin-left: 177px;
@@ -52,7 +52,7 @@ select{
 #right-img {
   height: 300px;
   width: 250px;
-  background-color: yellow;
+  /*background-color: yellow;*/
   display: inline-block;
   vertical-align: top;
   margin-left: 471px;
