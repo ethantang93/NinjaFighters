@@ -22,10 +22,11 @@
   border-radius: 20px;
   border: 10px solid lightgrey;
   /*display: inline-block;*/
+  text-align: center;
 }
 h2 {
   color: yellow;
-  margin-left: 77px;
+  /*margin-left: 77px;*/
 }
 button {
   height: 40px;
@@ -37,5 +38,5 @@ button {
 }
 
 select{
-  margin-left: 40px;
+  /*margin-left: 40px;*/
 }
