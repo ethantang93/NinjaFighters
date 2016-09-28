@@ -9,6 +9,7 @@
     <script type="text/javascript">
         $(document).ready(function() {
             var hide=true;
+            $('#left-img,#right-img').hide();
             $('button').hover(function() {
                 $('#screen').css("background-image", 'url(' + $(this).attr('name') + ')');
             }, function() {
@@ -21,6 +22,7 @@
             $('button').click(function(){
               hide = false;
               $('button').hide();
+              $('#left-img,#right-img').show();
               $('h2').text('Select Player');
               $('h2').after("<select>"+
               "<option value='' disabled selected>SelectPlayer</option>"+
@@ -55,6 +57,12 @@
                 <button type="button" name="forest.jpg">Forest</button>
                 <button type="button" name="matrix.jpg">Matrix</button>
                 <button type="button" name="snow.jpg">Snow</button>
+            </div>
+            <div id="left-img">
+
+            </div>
+            <div id="right-img">
+
             </div>
         </div>
     </div>

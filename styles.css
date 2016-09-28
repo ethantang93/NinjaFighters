@@ -40,3 +40,20 @@ button {
 select{
   /*margin-left: 40px;*/
 }
+#left-img {
+  height: 300px;
+  width: 250px;
+  background-color: blue;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 177px;
+}
+
+#right-img {
+  height: 300px;
+  width: 250px;
+  background-color: yellow;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 471px;
+}
