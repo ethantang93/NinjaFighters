@@ -24,22 +24,31 @@
               $('button').hide();
               $('#left-img,#right-img').show();
               $('h2').text('Select Player');
-              $('h2').after("<select>"+
+              $('h2').after("<select id='player1'>"+
               "<option value='' disabled selected>SelectPlayer</option>"+
-              "<option>donny</option>"+
-              "<option>leo</option>"+
-              "<option>milkey</option>"+
-              "<option>raphael</option>"+
+              "<option value='donny.png'>donny</option>"+
+              "<option value='leo.png'>leo</option>"+
+              "<option value='mikey.png'>milkey</option>"+
+              "<option value='raphael.png'>raphael</option>"+
               "</select>"+
-              "<select>"+
+              "<select id='player2'>"+
               "<option value='' disabled selected>SelectPlayer</option>"+
-              "<option>donny</option>"+
-              "<option>leo</option>"+
-              "<option>milkey</option>"+
-              "<option>raphael</option>"+
+              "<option value='donny.png'>donny</option>"+
+              "<option value='leo.png'>leo</option>"+
+              "<option value='mikey.png'>mikey</option>"+
+              "<option value='raphael.png'>raphael</option>"+
               "</select>")
             });
 
+        })
+
+        $(document).on('change', '#player1', function(){
+          var imgsource1=$('#player1').val();
+          $('#left-img').css("background-image", 'url(' + imgsource1 + ')')
+        })
+        $(document).on('change', '#player2', function(){
+          var imgsource2=$('#player2').val();
+          $('#right-img').css("background-image", 'url(' + imgsource2 + ')')
         })
 
     </script>
