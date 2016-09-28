@@ -34,7 +34,7 @@ button {
   display: inline-block;
   vertical-align: top;
   margin: 6px 3px;
-
+  border-radius: 9px;
 }
 
 select{
